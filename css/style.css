@@ -1,3 +1,42 @@
+.p20 {
+  padding: 20px;
+}
 
+.m20 {
+  margin: 20px;
+}
+
+.bg-img {
+  background: url(../img/wavezz.jpg) no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+.bg-footer {
+  background-color: #79899c;
+}
+
+header div div nav div ul li a:hover {
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+.cardB, .cardB-escritos, .cardB-formu {
+  background-color: #ffffff;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #999999;
+  z-index: 1;
+}
+
+.cardB-formu {
+  box-shadow: 0 0 10px #c09d9d;
+  padding: 15px;
+}
+
+.cardB-escritos {
+  box-shadow: 0 0 10px #79899c;
+}
 
 /*# sourceMappingURL=style.css.map */

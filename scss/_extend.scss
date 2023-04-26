@@ -1,0 +1,28 @@
+.cardB {
+    background-color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #999999;
+    z-index: 1;
+}
+
+.cardB-formu{}
+.cardB-escritos{}
+
+@each $tipoBoard in formu, escritos{
+    .cardB-#{$tipoBoard}{
+        @extend .cardB;
+    }
+}
+
+.cardB-formu{
+    @extend .cardB;
+    box-shadow: 0 0 10px #c09d9d;
+    padding:15px;
+}
+
+.cardB-escritos{
+    @extend .cardB;
+    box-shadow: 0 0 10px $colorPrincipal;
+}
